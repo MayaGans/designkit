@@ -6,7 +6,7 @@ BBPselectInput <- function(...) {
   dep <- htmltools::htmlDependency(
     name = "designkit",
     version = "0.1.0",
-    src = c(href = "inst/css"),
+    src = "inst/css",
     stylesheet = "big-bud-select.css"
   )
 
